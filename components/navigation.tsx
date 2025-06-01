@@ -45,12 +45,14 @@ export const Navigation = memo(function Navigation() {
           label="Materi"
           isActive={pathname === "/materi" || pathname.startsWith("/materi/")}
         />
-        <NavItem
+        {user?.role === "mahasiswa" && (
+          <NavItem
           href="/quiz"
           icon={<NotebookText className="h-6 w-6" />}
           label="Quiz"
           isActive={pathname === "/quiz" || pathname.startsWith("/quiz/")}
         />
+        )}
         <NavItem
           href="/notifikasi"
           icon={<Bell className="h-6 w-6" />}
