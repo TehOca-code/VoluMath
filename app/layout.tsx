@@ -9,7 +9,7 @@ import { Navigation } from "@/components/navigation"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Matematika 3D",
+  title: "VoluMath",
   description: "Aplikasi pembelajaran matematika bangun ruang 3D",
     generator: 'v0.dev'
 }
