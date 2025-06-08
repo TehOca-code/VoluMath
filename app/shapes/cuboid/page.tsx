@@ -44,13 +44,13 @@ export default function CuboidDetailPage() {
         <div className="flex justify-center mb-6">
           <div className="relative h-48 w-48">
             <Image
-              src="/placeholder.svg?height=192&width=192"
+              src="https://png.pngtree.com/png-clipart/20220110/original/pngtree-cuboid-vector-png-image_7041672.png"
               alt="Balok"
               width={192}
               height={192}
               className="object-contain"
             />
-            <div className="absolute inset-0 flex items-center justify-center text-indigo-800 font-bold">Balok</div>
+            {/* <div className="absolute inset-0 flex items-center justify-center text-indigo-800 font-bold">Balok</div> */}
           </div>
         </div>
 
@@ -88,7 +88,7 @@ export default function CuboidDetailPage() {
 
                     <div className="relative h-40 w-full md:hidden mb-4">
                       <Image
-                        src="/placeholder.svg?height=160&width=320"
+                        src="https://png.pngtree.com/png-clipart/20220110/original/pngtree-cuboid-vector-png-image_7041672.png"
                         alt="Bagian-bagian Balok"
                         width={320}
                         height={160}
@@ -110,7 +110,7 @@ export default function CuboidDetailPage() {
                   <div className="hidden md:block flex-1">
                     <div className="relative h-full w-full">
                       <Image
-                        src="/placeholder.svg?height=300&width=300"
+                        src="https://png.pngtree.com/png-clipart/20220110/original/pngtree-cuboid-vector-png-image_7041672.png"
                         alt="Bagian-bagian Balok"
                         width={300}
                         height={300}
@@ -156,9 +156,9 @@ export default function CuboidDetailPage() {
                   <li>Batako</li>
                 </ul>
                 {/* Tambahkan tombol unduh PDF di akhir bagian penjelasan */}
-                <div className="mt-4">
+                {/* <div className="mt-4">
                   <PDFDownload url="#" title="Materi Lengkap Balok" />
-                </div>
+                </div> */}
               </CardContent>
             </Card>
           </TabsContent>
@@ -369,10 +369,10 @@ export default function CuboidDetailPage() {
 
                 <div className="space-y-4">
                   <div>
-                    <h3 className="font-medium mb-2">Penjelasan Balok dan Sifat-sifatnya</h3>
-                    <YouTubeEmbed videoId="Rl9LnUVDQKY" title="Penjelasan Balok dan Sifat-sifatnya" />
+                    {/* <h3 className="font-medium mb-2">Penjelasan Balok dan Sifat-sifatnya</h3> */}
+                    <YouTubeEmbed videoId="b_eDk9aB0EY" title="Penjelasan Balok dan Sifat-sifatnya" />
                   </div>
-
+{/* 
                   <div>
                     <h3 className="font-medium mb-2">Cara Menghitung Volume dan Luas Permukaan Balok</h3>
                     <YouTubeEmbed videoId="ZfzLMpqIS7g" title="Cara Menghitung Volume dan Luas Permukaan Balok" />
@@ -381,7 +381,7 @@ export default function CuboidDetailPage() {
                   <div>
                     <h3 className="font-medium mb-2">Contoh Soal Balok</h3>
                     <YouTubeEmbed videoId="XNmQr6hEoGw" title="Contoh Soal Balok" />
-                  </div>
+                  </div> */}
                 </div>
               </CardContent>
             </Card>

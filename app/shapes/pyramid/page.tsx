@@ -43,13 +43,13 @@ export default function PyramidDetailPage() {
         <div className="flex justify-center mb-6">
           <div className="relative h-48 w-48">
             <Image
-              src="/placeholder.svg?height=192&width=192"
+              src="https://imgix2.ruangguru.com/assets/miscellaneous/png_xbkr4d_7344.png"
               alt="Limas"
               width={192}
               height={192}
               className="object-contain"
             />
-            <div className="absolute inset-0 flex items-center justify-center text-orange-800 font-bold">Limas</div>
+            {/* <div className="absolute inset-0 flex items-center justify-center text-orange-800 font-bold">Limas</div> */}
           </div>
         </div>
 
@@ -87,7 +87,7 @@ export default function PyramidDetailPage() {
 
                     <div className="relative h-40 w-full md:hidden mb-4">
                       <Image
-                        src="/placeholder.svg?height=160&width=320"
+                        src="https://imgix2.ruangguru.com/assets/miscellaneous/png_xbkr4d_7344.png"
                         alt="Bagian-bagian Limas"
                         width={320}
                         height={160}
@@ -108,7 +108,7 @@ export default function PyramidDetailPage() {
                   <div className="hidden md:block flex-1">
                     <div className="relative h-full w-full">
                       <Image
-                        src="/placeholder.svg?height=300&width=300"
+                        src="https://imgix2.ruangguru.com/assets/miscellaneous/png_xbkr4d_7344.png"
                         alt="Bagian-bagian Limas"
                         width={300}
                         height={300}
@@ -410,10 +410,10 @@ export default function PyramidDetailPage() {
 
                 <div className="space-y-4">
                   <div>
-                    <h3 className="font-medium mb-2">Penjelasan Limas dan Sifat-sifatnya</h3>
-                    <YouTubeEmbed videoId="XNmQr6hEoGw" title="Penjelasan Limas dan Sifat-sifatnya" />
+                    {/* <h3 className="font-medium mb-2">Penjelasan Limas dan Sifat-sifatnya</h3> */}
+                    <YouTubeEmbed videoId="2IAEV0v85as" title="Penjelasan Limas dan Sifat-sifatnya" />
                   </div>
-
+{/* 
                   <div>
                     <h3 className="font-medium mb-2">Cara Menghitung Volume dan Luas Permukaan Limas</h3>
                     <YouTubeEmbed videoId="ZfzLMpqIS7g" title="Cara Menghitung Volume dan Luas Permukaan Limas" />
@@ -422,7 +422,7 @@ export default function PyramidDetailPage() {
                   <div>
                     <h3 className="font-medium mb-2">Contoh Soal Limas</h3>
                     <YouTubeEmbed videoId="Rl9LnUVDQKY" title="Contoh Soal Limas" />
-                  </div>
+                  </div> */}
                 </div>
               </CardContent>
             </Card>

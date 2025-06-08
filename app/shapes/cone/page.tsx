@@ -42,22 +42,22 @@ export default function ConeDetailPage() {
 
       {/* Main Content */}
       <main className="flex-1 p-4">
-        <Breadcrumb>
+        {/* <Breadcrumb>
           <BreadcrumbItem>
             <BreadcrumbLink href="/shapes">Materi Ruang</BreadcrumbLink>
           </BreadcrumbItem>
-        </Breadcrumb>
+        </Breadcrumb> */}
 
         <div className="flex justify-center mb-6">
           <div className="relative h-48 w-48">
             <Image
-              src="/placeholder.svg?height=192&width=192"
+              src="https://png.pngtree.com/png-clipart/20230823/original/pngtree-conoid-diagram-shape-oval-cone-picture-image_8235283.png"
               alt="Kerucut"
               width={192}
               height={192}
               className="object-contain"
             />
-            <div className="absolute inset-0 flex items-center justify-center text-yellow-800 font-bold">Kerucut</div>
+            {/* <div className="absolute inset-0 flex items-center justify-center text-yellow-800 font-bold">Kerucut</div> */}
           </div>
         </div>
 
@@ -95,7 +95,7 @@ export default function ConeDetailPage() {
 
                     <div className="relative h-40 w-full md:hidden mb-4">
                       <Image
-                        src="/placeholder.svg?height=160&width=320"
+                        src="https://png.pngtree.com/png-clipart/20230823/original/pngtree-conoid-diagram-shape-oval-cone-picture-image_8235283.png"
                         alt="Bagian-bagian Kerucut"
                         width={320}
                         height={160}
@@ -116,7 +116,7 @@ export default function ConeDetailPage() {
                   <div className="hidden md:block flex-1">
                     <div className="relative h-full w-full">
                       <Image
-                        src="/placeholder.svg?height=300&width=300"
+                        src="https://png.pngtree.com/png-clipart/20230823/original/pngtree-conoid-diagram-shape-oval-cone-picture-image_8235283.png"
                         alt="Bagian-bagian Kerucut"
                         width={300}
                         height={300}
@@ -398,10 +398,10 @@ export default function ConeDetailPage() {
 
                 <div className="space-y-4">
                   <div>
-                    <h3 className="font-medium mb-2">Penjelasan Kerucut dan Sifat-sifatnya</h3>
-                    <YouTubeEmbed videoId="XNmQr6hEoGw" title="Penjelasan Kerucut dan Sifat-sifatnya" />
+                    {/* <h3 className="font-medium mb-2">Penjelasan Kerucut dan Sifat-sifatnya</h3> */}
+                    <YouTubeEmbed videoId="wSQ1PeSNrGw" title="Penjelasan Kerucut dan Sifat-sifatnya" />
                   </div>
-
+{/* 
                   <div>
                     <h3 className="font-medium mb-2">Cara Menghitung Volume dan Luas Permukaan Kerucut</h3>
                     <YouTubeEmbed videoId="ZfzLMpqIS7g" title="Cara Menghitung Volume dan Luas Permukaan Kerucut" />
@@ -410,7 +410,7 @@ export default function ConeDetailPage() {
                   <div>
                     <h3 className="font-medium mb-2">Contoh Soal Kerucut</h3>
                     <YouTubeEmbed videoId="Rl9LnUVDQKY" title="Contoh Soal Kerucut" />
-                  </div>
+                  </div> */}
                 </div>
               </CardContent>
             </Card>

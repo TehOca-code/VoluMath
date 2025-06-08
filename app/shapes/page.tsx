@@ -4,12 +4,13 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import {
   ArrowLeft,
-  CuboidIcon as Cube,
+  Box as Cube,
+  CuboidIcon,
   Cylinder,
   Hexagon,
   Octagon,
   Search,
-  SpaceIcon as Sphere,
+  Circle as Sphere,
   Triangle,
 } from "lucide-react"
 
@@ -51,7 +52,7 @@ export default function ShapesPage() {
             <Card className="h-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-t-4 hover:border-t-[#129392] bg-white shadow-lg">
               <CardContent className="p-4 flex flex-col items-center justify-center">
                 <div className="h-16 w-16 rounded-full bg-[#01484C]/20 flex items-center justify-center mb-3">
-                  <svg
+                  {/* <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-8 w-8 text-[#01484C]"
                     fill="none"
@@ -64,7 +65,8 @@ export default function ShapesPage() {
                       strokeWidth={2}
                       d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
                     />
-                  </svg>
+                  </svg> */}
+                  <CuboidIcon className="h-8 w-8 text-[#129392]"/>
                 </div>
                 <h3 className="font-medium text-center text-[#01484C]">Balok</h3>
               </CardContent>

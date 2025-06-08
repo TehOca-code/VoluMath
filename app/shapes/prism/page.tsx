@@ -38,11 +38,11 @@ export default function PrismDetailPage() {
           </Link>
           <h1 className="text-xl font-bold">Prisma</h1>
         </div>
-        <Breadcrumb>
+        {/* <Breadcrumb>
           <BreadcrumbItem>
             <BreadcrumbLink href="/shapes">Materi Ruang</BreadcrumbLink>
           </BreadcrumbItem>
-        </Breadcrumb>
+        </Breadcrumb> */}
       </header>
 
       {/* Main Content */}
@@ -50,13 +50,13 @@ export default function PrismDetailPage() {
         <div className="flex justify-center mb-6">
           <div className="relative h-48 w-48">
             <Image
-              src="/placeholder.svg?height=192&width=192"
+              src="https://imgix2.ruangguru.com/assets/miscellaneous/png_kmxsi6_258.png"
               alt="Prisma"
               width={192}
               height={192}
               className="object-contain"
             />
-            <div className="absolute inset-0 flex items-center justify-center text-purple-800 font-bold">Prisma</div>
+            {/* <div className="absolute inset-0 flex items-center justify-center text-purple-800 font-bold">Prisma</div> */}
           </div>
         </div>
 
@@ -95,7 +95,7 @@ export default function PrismDetailPage() {
 
                     <div className="relative h-40 w-full md:hidden mb-4">
                       <Image
-                        src="/placeholder.svg?height=160&width=320"
+                        src="https://imgix2.ruangguru.com/assets/miscellaneous/png_kmxsi6_258.png"
                         alt="Bagian-bagian Prisma"
                         width={320}
                         height={160}
@@ -116,7 +116,7 @@ export default function PrismDetailPage() {
                   <div className="hidden md:block flex-1">
                     <div className="relative h-full w-full">
                       <Image
-                        src="/placeholder.svg?height=300&width=300"
+                        src="https://imgix2.ruangguru.com/assets/miscellaneous/png_kmxsi6_258.png"
                         alt="Bagian-bagian Prisma"
                         width={300}
                         height={300}
@@ -428,10 +428,10 @@ export default function PrismDetailPage() {
 
                 <div className="space-y-4">
                   <div>
-                    <h3 className="font-medium mb-2">Penjelasan Prisma dan Sifat-sifatnya</h3>
-                    <YouTubeEmbed videoId="XNmQr6hEoGw" title="Penjelasan Prisma dan Sifat-sifatnya" />
+                    {/* <h3 className="font-medium mb-2">Penjelasan Prisma dan Sifat-sifatnya</h3> */}
+                    <YouTubeEmbed videoId="RdGgrBkLM9A" title="Penjelasan Prisma dan Sifat-sifatnya" />
                   </div>
-
+{/* 
                   <div>
                     <h3 className="font-medium mb-2">Cara Menghitung Volume dan Luas Permukaan Prisma</h3>
                     <YouTubeEmbed videoId="ZfzLMpqIS7g" title="Cara Menghitung Volume dan Luas Permukaan Prisma" />
@@ -440,7 +440,7 @@ export default function PrismDetailPage() {
                   <div>
                     <h3 className="font-medium mb-2">Contoh Soal Prisma</h3>
                     <YouTubeEmbed videoId="Rl9LnUVDQKY" title="Contoh Soal Prisma" />
-                  </div>
+                  </div> */}
                 </div>
               </CardContent>
             </Card>

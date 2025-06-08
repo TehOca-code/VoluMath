@@ -39,7 +39,7 @@ export default function SphereDetailPage() {
 
       {/* Main Content */}
       <main className="flex-1 p-4">
-        <Breadcrumb>
+        {/* <Breadcrumb>
           <BreadcrumbItem>
             <BreadcrumbLink href="/">Beranda</BreadcrumbLink>
           </BreadcrumbItem>
@@ -47,18 +47,18 @@ export default function SphereDetailPage() {
             <BreadcrumbLink href="/shapes">Materi Ruang</BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbItem>Bola</BreadcrumbItem>
-        </Breadcrumb>
+        </Breadcrumb> */}
 
         <div className="flex justify-center mb-6">
           <div className="relative h-48 w-48">
             <Image
-              src="/placeholder.svg?height=192&width=192"
+              src="https://3.bp.blogspot.com/-9aeMHsLhqiM/VN8QtHOkQ0I/AAAAAAAAAeU/mK1dExsvYZs/s1600/bola.png"
               alt="Bola"
               width={192}
               height={192}
               className="object-contain"
             />
-            <div className="absolute inset-0 flex items-center justify-center text-red-800 font-bold">Bola</div>
+            {/* <div className="absolute inset-0 flex items-center justify-center text-red-800 font-bold">Bola</div> */}
           </div>
         </div>
 
@@ -96,7 +96,7 @@ export default function SphereDetailPage() {
 
                     <div className="relative h-40 w-full md:hidden mb-4">
                       <Image
-                        src="/placeholder.svg?height=160&width=320"
+                        src="https://3.bp.blogspot.com/-9aeMHsLhqiM/VN8QtHOkQ0I/AAAAAAAAAeU/mK1dExsvYZs/s1600/bola.png"
                         alt="Bagian-bagian Bola"
                         width={320}
                         height={160}
@@ -117,7 +117,7 @@ export default function SphereDetailPage() {
                   <div className="hidden md:block flex-1">
                     <div className="relative h-full w-full">
                       <Image
-                        src="/placeholder.svg?height=300&width=300"
+                        src="https://3.bp.blogspot.com/-9aeMHsLhqiM/VN8QtHOkQ0I/AAAAAAAAAeU/mK1dExsvYZs/s1600/bola.png"
                         alt="Bagian-bagian Bola"
                         width={300}
                         height={300}
@@ -352,10 +352,10 @@ export default function SphereDetailPage() {
 
                 <div className="space-y-4">
                   <div>
-                    <h3 className="font-medium mb-2">Penjelasan Bola dan Sifat-sifatnya</h3>
-                    <YouTubeEmbed videoId="XNmQr6hEoGw" title="Penjelasan Bola dan Sifat-sifatnya" />
+                    {/* <h3 className="font-medium mb-2">Penjelasan Bola dan Sifat-sifatnya</h3> */}
+                    <YouTubeEmbed videoId="NYGTSoWEJaY" title="Penjelasan Bola dan Sifat-sifatnya" />
                   </div>
-
+{/* 
                   <div>
                     <h3 className="font-medium mb-2">Cara Menghitung Volume dan Luas Permukaan Bola</h3>
                     <YouTubeEmbed videoId="ZfzLMpqIS7g" title="Cara Menghitung Volume dan Luas Permukaan Bola" />
@@ -364,7 +364,7 @@ export default function SphereDetailPage() {
                   <div>
                     <h3 className="font-medium mb-2">Contoh Soal Bola</h3>
                     <YouTubeEmbed videoId="Rl9LnUVDQKY" title="Contoh Soal Bola" />
-                  </div>
+                  </div> */}
                 </div>
               </CardContent>
             </Card>

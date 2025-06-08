@@ -36,11 +36,11 @@ export default function CubeDetailPage() {
 
       {/* Main Content */}
       <main className="flex-1 p-4">
-        <Breadcrumb>
+        {/* <Breadcrumb>
           <BreadcrumbItem>
             <BreadcrumbLink href="/shapes">Materi Ruang</BreadcrumbLink>
           </BreadcrumbItem>
-        </Breadcrumb>
+        </Breadcrumb> */}
 
         <div className="flex justify-center mb-6">
           <div className="relative h-48 w-48">
@@ -88,7 +88,7 @@ export default function CubeDetailPage() {
 
                     <div className="relative h-40 w-full md:hidden mb-4">
                       <Image
-                        src="/placeholder.svg?height=160&width=320"
+                        src="https://vt-vtwa-assets.varsitytutors.com/vt-vtwa/uploads/problem_question_image/image/1346/Cube__PSF_.png"
                         alt="Bagian-bagian Kubus"
                         width={320}
                         height={160}
@@ -109,7 +109,7 @@ export default function CubeDetailPage() {
                   <div className="hidden md:block flex-1">
                     <div className="relative h-full w-full">
                       <Image
-                        src="/placeholder.svg?height=300&width=300"
+                        src="https://vt-vtwa-assets.varsitytutors.com/vt-vtwa/uploads/problem_question_image/image/1346/Cube__PSF_.png"
                         alt="Bagian-bagian Kubus"
                         width={300}
                         height={300}
@@ -341,10 +341,10 @@ export default function CubeDetailPage() {
 
                 <div className="space-y-4">
                   <div>
-                    <h3 className="font-medium mb-2">Penjelasan Kubus dan Sifat-sifatnya</h3>
-                    <YouTubeEmbed videoId="uLNyFxhw4lE" title="Penjelasan Kubus dan Sifat-sifatnya" />
+                    {/* <h3 className="font-medium mb-2">Penjelasan Kubus dan Sifat-sifatnya</h3> */}
+                    <YouTubeEmbed videoId="Wps55dtifcM" title="Penjelasan Kubus dan Sifat-sifatnya" />
                   </div>
-
+{/* 
                   <div>
                     <h3 className="font-medium mb-2">Cara Menghitung Volume dan Luas Permukaan Kubus</h3>
                     <YouTubeEmbed videoId="ZfzLMpqIS7g" title="Cara Menghitung Volume dan Luas Permukaan Kubus" />
@@ -353,7 +353,7 @@ export default function CubeDetailPage() {
                   <div>
                     <h3 className="font-medium mb-2">Contoh Soal Kubus</h3>
                     <YouTubeEmbed videoId="Rl9LnUVDQKY" title="Contoh Soal Kubus" />
-                  </div>
+                  </div> */}
                 </div>
               </CardContent>
             </Card>

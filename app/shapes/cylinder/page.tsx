@@ -40,22 +40,22 @@ export default function CylinderDetailPage() {
 
       {/* Main Content */}
       <main className="flex-1 p-4">
-        <Breadcrumb>
+        {/* <Breadcrumb>
           <BreadcrumbItem>
             <BreadcrumbLink href="/shapes">Materi Ruang</BreadcrumbLink>
           </BreadcrumbItem>
-        </Breadcrumb>
+        </Breadcrumb> */}
 
         <div className="flex justify-center mb-6">
           <div className="relative h-48 w-48">
             <Image
-              src="/placeholder.svg?height=192&width=192"
+              src="https://www.duniailkom.com/wp-content/uploads/2022/12/Ilustrasi-gambar-tabung-266x300.png"
               alt="Tabung"
               width={192}
               height={192}
               className="object-contain"
             />
-            <div className="absolute inset-0 flex items-center justify-center text-green-800 font-bold">Tabung</div>
+            {/* <div className="absolute inset-0 flex items-center justify-center text-green-800 font-bold">Tabung</div> */}
           </div>
         </div>
 
@@ -93,7 +93,7 @@ export default function CylinderDetailPage() {
 
                     <div className="relative h-40 w-full md:hidden mb-4">
                       <Image
-                        src="/placeholder.svg?height=160&width=320"
+                        src="https://www.duniailkom.com/wp-content/uploads/2022/12/Ilustrasi-gambar-tabung-266x300.png"
                         alt="Bagian-bagian Tabung"
                         width={320}
                         height={160}
@@ -117,7 +117,7 @@ export default function CylinderDetailPage() {
                   <div className="hidden md:block flex-1">
                     <div className="relative h-full w-full">
                       <Image
-                        src="/placeholder.svg?height=300&width=300"
+                        src="https://www.duniailkom.com/wp-content/uploads/2022/12/Ilustrasi-gambar-tabung-266x300.png"
                         alt="Bagian-bagian Tabung"
                         width={300}
                         height={300}
@@ -360,10 +360,10 @@ export default function CylinderDetailPage() {
 
                 <div className="space-y-4">
                   <div>
-                    <h3 className="font-medium mb-2">Penjelasan Tabung dan Sifat-sifatnya</h3>
-                    <YouTubeEmbed videoId="XNmQr6hEoGw" title="Penjelasan Tabung dan Sifat-sifatnya" />
+                    {/* <h3 className="font-medium mb-2">Penjelasan Tabung dan Sifat-sifatnya</h3> */}
+                    <YouTubeEmbed videoId="hKOdof-UtBI" title="Penjelasan Tabung dan Sifat-sifatnya" />
                   </div>
-
+{/* 
                   <div>
                     <h3 className="font-medium mb-2">Cara Menghitung Volume dan Luas Permukaan Tabung</h3>
                     <YouTubeEmbed videoId="ZfzLMpqIS7g" title="Cara Menghitung Volume dan Luas Permukaan Tabung" />
@@ -372,7 +372,7 @@ export default function CylinderDetailPage() {
                   <div>
                     <h3 className="font-medium mb-2">Contoh Soal Tabung</h3>
                     <YouTubeEmbed videoId="Rl9LnUVDQKY" title="Contoh Soal Tabung" />
-                  </div>
+                  </div> */}
                 </div>
               </CardContent>
             </Card>
