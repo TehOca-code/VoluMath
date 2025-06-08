@@ -119,7 +119,7 @@ export default function ProfilePage() {
                 <span className="sr-only">Kembali</span>
               </Button>
             </Link>
-            <h1 className="text-xl font-bold text-white">Kubika</h1>
+            <h1 className="text-xl font-bold text-white">VoluMath</h1>
           </div>
         </header>
 
@@ -337,7 +337,7 @@ export default function ProfilePage() {
               <span className="sr-only">Kembali</span>
             </Button>
           </Link>
-          <h1 className="text-xl font-bold text-white">Kubika</h1>
+          <h1 className="text-xl font-bold text-white">VoluMath</h1>
         </div>
       </header>
 
