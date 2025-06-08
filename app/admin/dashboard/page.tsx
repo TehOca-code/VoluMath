@@ -221,10 +221,10 @@ export default function AdminDashboardPage() {
             <Home className="h-6 w-6" />
             <span className="text-xs">Dashboard</span>
           </Link>
-          <Link href="/admin/users" className="flex flex-col items-center p-2 text-gray-500">
+          {/* <Link href="/admin/users" className="flex flex-col items-center p-2 text-gray-500">
             <Users className="h-6 w-6" />
             <span className="text-xs">Pengguna</span>
-          </Link>
+          </Link> */}
           <button onClick={handleLogout} className="flex flex-col items-center p-2 text-gray-500">
             <LogOut className="h-6 w-6" />
             <span className="text-xs">Logout</span>
